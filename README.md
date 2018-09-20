@@ -29,10 +29,10 @@ When code is required, separate your commits by task and use the following forma
 * TASK 1 (no commit): Use the sql file to create the database that you will use for this test. Use the `docker-compose.yml` file to launch an instance of `mariadb` and store the data there. Please note that `clients.idprofile` = `profiles.contact_id`.
 * TASK 2: Write a sql query that gets all data from both table in one result set.
 * TASK 3: Using `pandas`, get both tables separately and merge them in one `DataFrame`.
-* TASK 3: On your copy of the profiles table, update the `value` column to 'fifth_row' (please don't write queries manually).
-* TASK 4: Insert a new client and a new profile (use `sql`).
-* TASK 5: Add a new column in the `profiles` table and fill it with random data.
-* TASK 6: Implement a `python` class that you can instantiate with a username and password and that will expose a connection to your `mariadb` `docker` as a property.
+* TASK 4: On your copy of the profiles table, update the `value` column to 'fifth_row' (please don't write queries manually).
+* TASK 5: Insert a new client and a new profile (use `sql`).
+* TASK 6: Add a new column in the `profiles` table and fill it with random data.
+* TASK 7: Implement a `python` class that you can instantiate with a username and password and that will expose a connection to your `mariadb` `docker` as a property.
 
 Extra tasks:
 - Write a test for your connector class.
