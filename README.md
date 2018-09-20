@@ -39,7 +39,7 @@ Extra tasks:
 
 ### Documentation
 This test uses 
-* [Pandas](http://pandas.pydata.org/pandas-docs/stable/).
+* [Pandas](http://pandas.pydata.org/pandas-docs/stable/)
 * [Docker](https://www.docker.com/)
 * [Docker Compose](https://docs.docker.com/compose/)
 
