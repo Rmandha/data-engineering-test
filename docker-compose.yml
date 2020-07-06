@@ -4,6 +4,11 @@ services:
 
   db:
     image: mariadb
+    ports:
+    - "3306:3306"
+    volume:
+    - .:/var/lib/mysql
     restart: always
+    container_name : Alaya_de
     environment:
       MYSQL_ROOT_PASSWORD: root
