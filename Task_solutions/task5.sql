@@ -10,6 +10,7 @@ login into the database and execute the below queries.
 
 # Let's add a new client with id "0850" into the clients table.
 
+```sql
 INSERT INTO clients (
 id, description, adminuser_id,
 guid, price_tear, create_user_id,
@@ -22,7 +23,7 @@ VALUES
 NULL, NULL, 200, "2020-07-06 10:26:30",
 "2020-07-05 10:10:10", 1000, NULL, "5138867086",
 NULL, "active", 1, 1, "America/Toronto");
-
+```
 
 """
 We can insert a new profile into the profiles using the below query.
