@@ -67,4 +67,5 @@ if __name__== '__main__':
 
     print(combined_table)
 
+    #Make sure to close out the database connection.    
     conn.close()
