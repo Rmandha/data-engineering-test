@@ -8,7 +8,7 @@ import mysql.connector as mariadb
 Its a best practice not to give the user_id and password of the account
 that will be used to access the prod database. As such, we could use a
 configuration file which will contain the environment variables that will
-be utilized to pass the following details for creating a connection to the 
+be utilized to pass the following details for creating a connection to the
 database: user, password, database, host and port
 """
 
@@ -45,7 +45,7 @@ def getdata(table):
         query = "SELECT * FROM {};".format(table)
 
         #We could load the result of the query into the Pandas Dataframe using read_sql method.
-       
+
         df = pd.read_sql(query, conn)
 
         #We now return the dataframe to process further.
