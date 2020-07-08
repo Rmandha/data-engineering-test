@@ -58,6 +58,7 @@ def getdata(table):
 
 if __name__== '__main__':
 
+    # Lets load the clients table into the dataframe.
     clients = getdata("clients")
 
     profiles = getdata("profiles")
